@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fc8888;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 20px;
+    list-style: none;
+}
+
+footer {
+    background: #fc8888;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+        color: aqua;
+    
+    }
+    header {
+        background: orange;
+    }
+    footer {
+        background: orange;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
