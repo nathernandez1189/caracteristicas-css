@@ -43,6 +43,7 @@ footer {
     footer {
         background: orange;
 }
+}
 
 @media (max-width: 480px) {
     body {
